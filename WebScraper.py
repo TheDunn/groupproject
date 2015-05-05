@@ -8,7 +8,7 @@ import inputbox
 arrayWords = []
 
 print "Web Scraper"
-proxi = raw_input("Are you on a school proxy? yes or no: ")
+proxi = raw_input("Are you on CHS school proxy? yes or no: ")
 url = raw_input("Enter URL: ")
 
 #url = 'http://www.lipsum.com/'
