@@ -1,4 +1,4 @@
-#Note: Only works with websites using HTTP on school proxy. 
+#Note: Only works with websites using HTTP on school proxy. FOR NOW.. lol
 
 import collections
 import urllib2
