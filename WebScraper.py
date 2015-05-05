@@ -1,3 +1,5 @@
+#Note: Only works with websites using HTTP on school proxy. 
+
 import collections
 import urllib2
 import re
@@ -18,7 +20,7 @@ if proxi == "yes":
 else:
     pass
 
-req = urllib2.Request(url)
+req = urllib2.Request("http://"+url)
 resp = urllib2.urlopen(req)
 respData = resp.read()
 
